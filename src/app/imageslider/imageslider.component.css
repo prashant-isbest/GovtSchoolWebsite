@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   margin: 10px;
-  height: 90vh;
+  height: 70vh;
   flex: 0.5;
   cursor: pointer;
   border-radius: 50px;
@@ -55,4 +55,10 @@ body {
   .panel:nth-of-type(5) {
     display: none;
   }
+}
+
+/* added */
+.slider {
+  background-color: antiquewhite;
+  padding: 25px 0px;
 }

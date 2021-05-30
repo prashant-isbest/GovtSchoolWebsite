@@ -1,0 +1,90 @@
+.container {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 20px;
+  height: 800px;
+}
+h2 {
+  text-align: center;
+}
+
+.card {
+  height: 400px;
+  background-color: grey;
+  position: relative;
+  overflow: hidden;
+  border: 6px solid #e27d60;
+}
+
+.card img {
+  overflow: hidden;
+}
+
+.card-info {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+  overflow-y: auto;
+}
+
+.card:hover .overview {
+  transform: translateY(0);
+}
+
+/* added */
+.content {
+  padding-bottom: 20px;
+}
+
+.tab-content {
+  height: 400px;
+  background-color: antiquewhite;
+  padding: 10px 10px 20px 30px;
+  overflow-y: auto;
+}
+
+.tab-content div {
+  display: none;
+}
+
+.tab-content div.active {
+  display: unset;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.no-bullets li {
+  margin: 20px 0px;
+}
+
+.nav-tabs {
+  margin-top: 10 px;
+  margin-bottom: 5px;
+}
+
+.nav-item:hover {
+  background-color: antiquewhite;
+  color: black;
+}
